@@ -1,0 +1,117 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+nav {
+    padding: 8px 100px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.nav-services {
+    position: relative;
+}
+
+.nav-services-list {
+    display: none;
+}
+
+.nav-services:hover .nav-services-list {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: 0px;
+}
+
+.crm-items ul {
+    display: inline-block;
+    position: relative;
+    left: 74px;
+    top: -15px;
+}
+
+.crm-items ul li:hover {
+    background-color: grey;
+}
+
+.crm-items ul li:hover a{
+    color: white;
+}
+
+.btn-primary {
+    background-color: #00BAFC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 1300px;
+    margin: 0 auto;
+    gap: 172px;
+    padding: 80px 100px;
+}
+
+.hero-info {
+    width: 470px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.bottom-center:hover .center-div{
+    background-image: url("");
+}
